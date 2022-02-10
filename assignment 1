@@ -1,0 +1,51 @@
+#Program For whether student pass or fail
+sno=int(input('enter sno='))
+sname=input('enter sname=')
+sgroup=input('enter sgroup=')
+s1=int(input('enter English marks'))
+s2=int(input('enter Telugu marks'))
+s3=int(input('enter Electrical appliances marks'))
+s4=int(input('enter Maths marks'))
+s5=int(input('enter Electronics marks'))
+s6=int(input('enter Computer science marks'))
+if s1>=28:
+    print('s1 pass',s1)
+else:
+    print('s1 fail,',s1)
+if s2>=28:
+    print('s2 pass',s2)
+else:
+    print('s2 fail',s2)
+if s3>=28:
+    print('s3 pass',s3)
+else:
+    print('s3 fail',s3)
+if s4>=28:
+    print('s4 pass',s4)
+else:
+    print('s4 fail',s4)
+if s5>=28:
+    print('s5 pass',s5)
+else:
+    print('s5 fail',s5)
+if s6>=28:
+    print('s6 pass',s6)
+else:
+    print('s6 fail',s6)
+    :OUTPUT:
+enter sno=9
+enter sname=vaishu
+enter sgroup=mecs
+enter English marks54
+enter Telugu marks21
+enter Electrical appliances marks34
+enter Maths marks3
+enter Electronics marks21
+enter Computer science marks65
+s1 pass 54
+s2 fail 21
+s3 pass 34
+s4 fail 3
+s5 fail 21
+s6 pass 65
+>
