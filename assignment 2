@@ -1,0 +1,20 @@
+#whether a is positive or negative 
+a=int(input('enter the no='))
+if a>0:
+    print('a is positive ')
+elif a==0:
+    print('a is neither positive nor negative ')  
+else:
+   print ('a is negative')
+   :OUTPUT 1:
+enter the no=1
+a is positive 
+>
+   :OUTPUT 2:
+enter the no=0
+a is neither positive nor negative 
+>
+    :OUTPUT 3:
+enter the no=-5
+a is negative
+>
